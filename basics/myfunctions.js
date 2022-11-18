@@ -16,3 +16,20 @@ var myValue = addTwo(5);
 getUpper("ezechiel");
 signUpUser("Ezechiel", "ezechiel@gmail.com", false);
 loginUser("Eze", "eze@gmail.com");
+// function getValue(myVal: number){
+//   if (myVal > 5 ) {
+//     return true
+//   }
+//   return"200 ok"
+// }
+var getHello = function (s) {
+    return "";
+};
+var heros = ["author", "spiderman", "ironman"];
+// const heros = [1, 2, 3]
+heros.map(function (hero) {
+    return "hero is ".concat(hero);
+});
+function consoleError(errmsg) {
+    console.log(errmsg);
+}

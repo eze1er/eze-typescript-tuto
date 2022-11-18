@@ -22,4 +22,30 @@ getUpper("ezechiel");
 signUpUser("Ezechiel", "ezechiel@gmail.com", false)
 loginUser("Eze", "eze@gmail.com")
 
+
+// function getValue(myVal: number){
+//   if (myVal > 5 ) {
+//     return true
+//   }
+//   return"200 ok"
+// }
+
+const getHello = (s: string):string => {
+  return ""
+}
+
+const heros = ["author", "spiderman", "ironman"]
+// const heros = [1, 2, 3]
+
+heros.map((hero): string => {
+  return`hero is ${hero}`
+})
+
+function consoleError(errmsg: string): void{
+  console.log(errmsg)
+}
+
+function handleError(errmsg: string): never{
+  throw new Error(errmsg)
+}
 export {}
