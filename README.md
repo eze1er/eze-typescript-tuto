@@ -14,3 +14,6 @@ $ pm -v
 $ sudo npm install -g typescript
 
 
+Types:
+
+Number String Boolean Null Undefined Void Object Array Tuples ...
