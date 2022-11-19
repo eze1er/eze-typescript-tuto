@@ -17,12 +17,32 @@ function createCourse():{name: string, price: number}{
 // type alias
 
 type User = {
+  readonly _id: string;
   name: string;
   email: string;
-  isActive: boolean
+  isActive: boolean,
+  credCardDetails?: number
+
 }
 
-function createUser(user: User): User{
-  return {name}
+let myUser: User = {
+  _id: "1234",
+  name: "Eze",
+  email: "ez@h.com",
+  isActive: false,
 }
+
+type cardNumber = {
+  cardNumber: string
+}
+
+type cardDate = {
+  cardDate: number
+}
+
+type cardDetails = cardNumber & cardDate & {
+  cvv: number
+}
+
+
 export {}
