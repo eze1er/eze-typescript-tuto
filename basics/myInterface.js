@@ -1,4 +1,4 @@
-var ezechiel = { dbId: 22, email: "eze@h.com", userId: 2445, startTrial: function () {
+var ezechiel = { dbId: 22, email: "eze@h.com", userId: 2445, gitHubToken: "github", startTrial: function () {
         return "Trial starting";
     },
     getCoupon: function (name, off) {
