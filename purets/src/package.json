@@ -1,0 +1,22 @@
+{
+  "name": "eze-typscript-tuto",
+  "version": "1.0.0",
+  "description": "https://www.typescriptlang.org/",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eze1er/eze-typescript-tuto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eze1er/eze-typescript-tuto/issues"
+  },
+  "homepage": "https://github.com/eze1er/eze-typescript-tuto#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
